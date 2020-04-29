@@ -1,6 +1,5 @@
 # sudo pacman -S nasm
-# wget http://bochs.sourceforge.net/svn-snapshot/bochs-20200412.tar.gz
-# tar -zxvf bochs-20200412.tar.gz
+tar -zxvf bochs-20200412.tar.gz
 cd bochs-20200412
 ./configure --with-x11 --with-wx --enable-debugger --enable-disasm \
     --enable-all-optimizations --enable-readline --enable-long-phy-address \
