@@ -1,4 +1,4 @@
-# sudo pacman -S nasm
+sudo pacman -S mask pkg-config nasm
 tar -zxvf bochs-20200412.tar.gz
 cd bochs-20200412
 ./configure --with-x11 --with-wx --enable-debugger --enable-disasm \
